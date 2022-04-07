@@ -18,6 +18,7 @@
 		7585149E27FD8FE8002D69E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7585149C27FD8FE8002D69E5 /* Main.storyboard */; };
 		758514A027FD8FED002D69E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7585149F27FD8FED002D69E5 /* Assets.xcassets */; };
 		758514A327FD8FED002D69E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758514A127FD8FED002D69E5 /* LaunchScreen.storyboard */; };
+		7588DD4927FEE11C002C3468 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588DD4827FEE11C002C3468 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7585149F27FD8FED002D69E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		758514A227FD8FED002D69E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		758514A427FD8FED002D69E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7588DD4827FEE11C002C3468 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		758514AA27FD9001002D69E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7588DD4827FEE11C002C3468 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				7501122827FD9CAE003F4558 /* Comment.swift */,
-				7501123027FDB6B7003F4558 /* GetCommentResponse.swift */,
+				7588DD4727FEDF96002C3468 /* Responses */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,14 @@
 				7585149F27FD8FED002D69E5 /* Assets.xcassets */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		7588DD4727FEDF96002C3468 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				7501123027FDB6B7003F4558 /* GetCommentResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				7585149927FD8FE8002D69E5 /* SceneDelegate.swift in Sources */,
 				7501122C27FDABF2003F4558 /* NetworkService.swift in Sources */,
 				7501123127FDB6B7003F4558 /* GetCommentResponse.swift in Sources */,
+				7588DD4927FEE11C002C3468 /* NetworkError.swift in Sources */,
 				7501122727FD9B55003F4558 /* CommentCell.swift in Sources */,
 				7501122F27FDAE5A003F4558 /* CommentNetworkService.swift in Sources */,
 			);
